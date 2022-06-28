@@ -1,0 +1,6 @@
+.backgroundBody{
+    background-image: url("../../assets/body_bg.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
