@@ -1,0 +1,144 @@
+.StickyNav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 87px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.home, .pokedex, .videoGames, .cardGames, .tv, .events, .news {
+    width: 127px;
+    color: #464646;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.home img, .pokedex img, .videoGames img, .cardGames img, .tv img, .events img, .news img{
+    width: 28px;
+    margin-top: 15px;
+}
+
+.home{
+    background-color: #919191;
+    border-bottom: solid 6px #919191;
+    border-radius: 0 0 0 8px;
+}
+
+.homeText{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.img-top {
+    display: none;
+}
+
+.pokedex{
+    border-bottom: solid 6px #E3350D;
+}
+
+.pokedex:hover{
+    background-color: #E3350D;
+    color: white;
+}
+
+.pokedex:hover .img-top{
+    display: inline;
+}
+
+.pokedex:hover .img-bottom{
+    display: none;
+}
+
+.videoGames{
+    border-bottom: solid 6px #ee6b2f;
+}
+
+.videoGames:hover{
+    background-color: #ee6b2f;
+    color: white;
+}
+
+.videoGames:hover .img-top{
+    display: inline;
+}
+
+.videoGames:hover .img-bottom{
+    display: none;
+}
+
+.cardGames{
+    border-bottom: solid 6px #e6bc2f;
+}
+
+.cardGames:hover{
+    background-color: #e6bc2f;
+    color: white;
+}
+
+.cardGames:hover .img-top{
+    display: inline;
+}
+
+.cardGames:hover .img-bottom{
+    display: none;
+}
+
+.tv{
+    border-bottom: solid 6px #4dad5b;
+}
+
+.tv:hover{
+    background-color: #4dad5b;
+    color: white;
+}
+
+.tv:hover .img-top{
+    display: inline;
+}
+
+.tv:hover .img-bottom{
+    display: none;
+}
+
+.events{
+    border-bottom: solid 6px #30a7d7;
+}
+
+.events:hover{
+    background-color: #30a7d7;
+    color: white;
+}
+
+.events:hover .img-top{
+    display: inline;
+}
+
+.events:hover .img-bottom{
+    display: none;
+}
+
+.news{
+    border-bottom: solid 6px #1b53ba;
+    border-radius: 0 0 8px 0;
+}
+
+.news:hover{
+    background-color: #1b53ba;
+    color: white;
+}
+
+.news:hover .img-top{
+    display: inline;
+}
+
+.news:hover .img-bottom{
+    display: none;
+}
+

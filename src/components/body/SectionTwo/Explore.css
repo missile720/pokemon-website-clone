@@ -1,0 +1,23 @@
+.explore{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.explore button{
+    margin-left: 650px;
+    background-color: #313131;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 105%;
+    line-height: 125%;
+    padding: 0.75em 1.25em 0.675em;
+    font-weight: bold;
+}
+
+.explore button:hover{
+    background-color: black;
+}

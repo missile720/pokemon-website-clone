@@ -1,0 +1,89 @@
+.rowTwo{
+    display: flex;
+    justify-content: center;
+}
+
+.pokeGo{
+    width: 280px; 
+    background-color: white;
+    padding-left: 14px;
+    padding-right: 7px;
+}
+
+.pokeGo img{
+    border-radius: 5px 5px 0 0;
+}
+
+.yellowBanner{
+    background-color: #e6bc2f;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.yellowBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.pokeRadiance{
+    width: 280px; 
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 14px;
+}
+
+.pokeRadiance img{
+    border-radius: 5px 5px 0 0;
+}
+
+.blackBanner{
+    background-color: #313131;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.blackBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.pokeToon{
+    width: 280px; 
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 14px;
+}
+
+.pokeToon img{
+    border-radius: 5px 5px 0 0;
+}
+
+.orangeBanner{
+    background-color: #ee6b2f;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.orangeBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}

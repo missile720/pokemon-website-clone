@@ -1,0 +1,120 @@
+.rowThree{
+    display: flex;
+    justify-content: center;
+}
+
+.pokeCenter{
+    width: 281px; 
+    background-color: white;
+    padding-left: 14px;
+    padding-right: 7px;
+    padding-top: 80px;
+}
+
+.pokeCenter img{
+    border-radius: 5px 5px 0 0;
+}
+
+.redBanner{
+    background-color: #E3350D;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.redBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.redBanner p {
+    color: #ccc;
+    margin: 0.5em 0.5em 0.5em 1.25em;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 99%;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.pokeBond{
+    width: 281px; 
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pokeBond img{
+    border-radius: 5px 5px 0 0;
+}
+
+.lightBlueBanner{
+    background-color: #30a7d7;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.lightBlueBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.lightBlueBanner p {
+    color: #0a2631;
+    margin: 0.5em 0.5em 0.5em 1.25em;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 99%;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.pokeAsh{
+    width: 281px; 
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 14px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.pokeAsh img{
+    border-radius: 5px 5px 0 0;
+}
+
+.yellowBanner{
+    background-color: #e6bc2f;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.yellowBanner h3{
+    font-size: 137.5%;
+    line-height: 125%;
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.yellowBanner p {
+    color: #212121;
+    margin: 0.5em 0.5em 0.5em 1.25em;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 99%;
+    font-weight: 500;
+    line-height: 125%;
+}

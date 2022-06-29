@@ -1,0 +1,113 @@
+.rowOne{
+    display: flex;
+    justify-content: center;
+}
+
+.worldChampion{
+    width: 578px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 14px;
+    padding-right: 7px;
+}
+
+.imageSectionOne{
+    display: block;
+}
+
+.worldChampion img{
+    border-radius: 5px 5px 0 0;
+}
+
+.pinkBanner{
+    background-color: #ff90c4;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-top: 0.25em;
+    border-radius: 0 0 5px 5px;
+}
+
+.purpleBanner{
+    background-color: #855ac9;
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 0.4em;
+    border-radius: 0 0 5px 5px;
+}
+
+.purpleBanner p {
+    color: #212121;
+    margin: 0.5em 0.5em 0 1.4em;
+    font-family: "Roboto",arial,sans-serif;
+}
+.purpleBanner h3 {
+    color: white;
+    font-size: 137.5%;
+    line-height: 125%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0.75em 0.5em 0 1em;
+    font-weight: lighter;
+}
+.whiteText{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0.75em 0.5em 0 1em;
+    font-size: 137.5%;
+    line-height: 125%;
+}
+
+.subText{
+    font-family: "Roboto",arial,sans-serif;
+    font-weight: lighter;
+    color: #c3005b;
+    margin: 0.5em 0.5em 0 1em;
+    line-height: 125%;
+    margin-left: 1.25em;
+}
+
+.vstar{
+    width: 281px;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 14px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+.vstar img{
+    border-radius: 5px 5px 0 0;
+}
+
+.hisuan{
+    width: 281px;
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    padding-right: 14px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.hisuan img{
+    border-radius: 5px 0 0 5px;
+}
+
+.grayBanner{
+    background-color: #a4a4a4;
+    border-radius: 0 5px 5px 0;
+}
+
+.grayBanner h3{
+    text-align: left;
+    font-size: 150%;
+    line-height: 125%;
+    margin: 0.5em 0.5em 0 1em;
+    color: #212121;
+    font-weight: lighter;
+}
+
+.format{
+    display: flex;
+}

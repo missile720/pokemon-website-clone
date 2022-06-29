@@ -1,0 +1,50 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #dedede;
+    background-color: #f5f5f5;
+}
+
+.imageNav{
+    border-right: solid 2px #dedede;
+    border-collapse: collapse;
+    padding: 9px 10px 8px 10px;
+}
+
+.activeNav{
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px #666666;
+    border-right: none;
+}
+
+.imageNavOne:hover{
+    animation-name: bounce;
+    animation-duration: .5s;
+}
+
+.imageNavTwo:hover{
+    animation-name: bounce;
+    animation-duration: .5s;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(10px); }
+    50%  { transform: translateY(0px); }
+    70%  { transform: translateY(5px); }
+    85%  { transform: translateY(2px); }
+    100%  { transform: translateY(0px); }
+}
+
+.imageNavRight{
+    margin: 6px 0 6px 7px;
+}
+
+/* Doesn't work for previous elements change it to js */
+/* .imageNavRightOne:hover + .imageNavRightTwo, .imageNavRightOne:hover ~ .imageNavRightThree{
+    opacity: .5;
+}
+
+.imageNavRightTwo:hover + .imageNavRightThree, .imageNavRightTwo:hover ~ .imageNavRightOne{
+    opacity: .5;
+} */
