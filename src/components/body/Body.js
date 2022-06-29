@@ -10,6 +10,9 @@ function Body() {
       <SectionOne/>
       <Slider/>
       <SectionTwo/>
+      <div className='spacer'>
+        <div className='spacerWhite'></div>
+      </div>
     </div>
   )
 }

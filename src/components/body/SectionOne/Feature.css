@@ -1,9 +1,9 @@
-.rowThree{
+.feature{
     display: flex;
     justify-content: center;
 }
 
-.rowThree h3{
+.feature h3{
     background: #232323;
     color: #919191;
     font-size: 125%;
@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-.rowThree span{
+.feature span{
     font-size: 125%;
     margin-right: 0.25em;
 }

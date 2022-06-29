@@ -107,3 +107,7 @@
     color: #212121;
     font-weight: lighter;
 }
+
+.format{
+    display: flex;
+}

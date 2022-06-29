@@ -4,3 +4,26 @@
     align-items: center;
     flex-direction: column;
 }
+
+.spacer{
+    height: 36px;
+    width: 899px;
+}
+
+.spacerWhite{
+    height: 6px;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+}
+
+.hoverAnimationBounce:hover{
+    animation-name: bounceStep;
+    animation-duration: .2s;
+    cursor: pointer;
+}
+
+@keyframes bounceStep {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100%  { transform: translateY(0px); }
+}

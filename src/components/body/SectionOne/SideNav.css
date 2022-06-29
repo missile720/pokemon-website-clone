@@ -1,0 +1,47 @@
+.sideNavSticky{
+    position: fixed;
+    margin-top: 1em;
+    width: 59px;
+    height: 169px;
+}
+
+.green{
+    background-color: #54b564;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-radius: 0 17px 0 0;
+    width: 57px;
+    height: 102px;
+}
+
+.green img{
+    margin-left: 12px;
+    padding-top: 25px;
+}
+
+.green:hover{
+    cursor: pointer;
+    background-color: #369143;
+}
+
+.logIn{
+    color: white;
+    font-size: 10.5px;
+    font-weight: bold;
+}
+
+.stickImage{
+    position: relative;
+    top: 15px;
+    left: 12px;
+}
+
+.imageHover{
+    background-image: url("../../../assets/profile-nav-search-bg.png");
+    height: 67px;
+}
+
+.imageHover:hover , .stickImage:hover{
+    cursor: pointer;
+    background-image: url("../../../assets/profile-nav-search-bg-hover.png");
+}
