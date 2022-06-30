@@ -93,7 +93,7 @@
     border-radius: 5px 5px 0 0;
 }
 
-.yellowBanner{
+.yellowTwoBanner{
     background-color: #e6bc2f;
     text-align: left;
     padding-bottom: 1em;
@@ -101,7 +101,7 @@
     border-radius: 0 0 5px 5px;
 }
 
-.yellowBanner h3{
+.yellowTwoBanner h3{
     font-size: 137.5%;
     line-height: 125%;
     margin: 0.75em 0.5em 0 1em;
@@ -110,11 +110,23 @@
     font-weight: lighter;
 }
 
-.yellowBanner p {
+.yellowTwoBanner p {
     color: #212121;
     margin: 0.5em 0.5em 0.5em 1.25em;
     font-family: "Roboto",arial,sans-serif;
     font-size: 99%;
     font-weight: 500;
     line-height: 125%;
+}
+
+.redDarkBanner{
+    background-color: #b32a0a;
+}
+
+.lightBlueDarkBanner{
+    background-color: #1b82b1;
+}
+
+.yellowDarkBanner{
+    background-color: #daa31c;
 }

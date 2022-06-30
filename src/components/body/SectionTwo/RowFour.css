@@ -158,3 +158,19 @@
     padding: 0.5em 0.5em 1em 1em;
     border-radius: 0 0 30px 5px;
 }
+
+.blueDarkBanner{
+    background-color: #1847d7;
+}
+
+.pinkDarkBanner{
+    background-color: #ff2a8e;
+}
+
+.purpleDarkBanner{
+    background-color: #734bb2;
+}
+
+.lightBlueDarkBanner{
+    background-color: #1b82b1;
+}

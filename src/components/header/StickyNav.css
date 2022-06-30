@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    height: 87px;
+    height: 95px;
     border-bottom: 2px solid #f0f0f0;
 }
 
@@ -20,6 +20,7 @@
 .home img, .pokedex img, .videoGames img, .cardGames img, .tv img, .events img, .news img{
     width: 28px;
     margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 .home{
