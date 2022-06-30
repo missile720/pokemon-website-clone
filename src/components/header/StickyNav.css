@@ -6,6 +6,12 @@
     border-bottom: 2px solid #f0f0f0;
 }
 
+.sticky{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
 .home, .pokedex, .videoGames, .cardGames, .tv, .events, .news {
     width: 127px;
     color: #464646;

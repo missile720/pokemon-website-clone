@@ -3,3 +3,7 @@
     width: 1280px;
     background-image: url("../../../assets/container_bg.png");
 }
+
+.offset{
+    margin-top: 95px;
+}
