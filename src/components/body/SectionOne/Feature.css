@@ -1,6 +1,7 @@
 .feature{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .feature h3{
@@ -15,6 +16,7 @@
     border-radius: 5px 5px 0 0;
     display: flex;
     vertical-align: middle;
+    position: relative;
 }
 
 .feature span{

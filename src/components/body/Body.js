@@ -7,9 +7,11 @@ import Slider from './Slider/Slider'
 function Body() {
   return (
     <div className='backgroundBody'>
+      <div className='overFlow'>
       <SectionOne/>
       <Slider/>
       <SectionTwo/>
+      </div>
       <div className='spacer'>
         <div className='spacerWhite'></div>
       </div>

@@ -1,0 +1,57 @@
+.Slider{
+    clear: both;
+    min-height: 400px;
+    width: 1280px;
+    position: relative;
+    cursor: pointer;
+    background:none;
+    z-index: 0;
+}
+
+.sliderList{
+    border-top: 3px solid #232323;
+    width: 2640px;
+    transform: translate3d(-790px, 0px, 0px);
+    position: absolute;
+    list-style: none;
+    height: 400px;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.sliderButton{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    height: 92px;
+    margin-top: -30px;
+    width: 76px;
+    cursor: pointer;
+    background: url(../../../assets/slider-btns.png) no-repeat 0 0;
+}
+
+.previous{
+    left: 70px;
+    opacity: 0;
+}
+
+.next{
+    right: 70px;
+    background-position: -100px 0;
+    opacity: 0;
+}
+
+.opacityButton{
+    opacity: .5;
+}
+
+.opacityButtonOn{
+    opacity: .9;
+}

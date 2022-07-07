@@ -111,3 +111,15 @@
 .format{
     display: flex;
 }
+
+.pinkDarkBanner{
+    background-color: #ff2a8e;
+}
+
+.purpleDarkBanner{
+    background-color: #734bb2;
+}
+
+.greyDarkBanner{
+    background-color: #8b8b8b;
+}
