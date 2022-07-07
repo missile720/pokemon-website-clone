@@ -1,9 +1,9 @@
 .sectionOneContainer{
-    background-color: white;
+    background: none;
     width: 1280px;
-    background-image: url("../../../assets/container_bg.png");
+    position: relative;
 }
 
 .offset{
-    margin-top: 95px;
+    padding-top: 97px;
 }

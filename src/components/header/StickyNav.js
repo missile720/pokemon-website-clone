@@ -6,7 +6,6 @@ function StickyNav() {
 
   useEffect(() => {
     const handleScroll = event => {
-      console.log('window.scrollY', window.scrollY);
       if (window.scrollY >= 68) {
         setSticky("sticky");
       } 

@@ -3,6 +3,7 @@
     margin-top: 1em;
     width: 59px;
     height: 169px;
+    z-index: 9000;
 }
 
 .green{
