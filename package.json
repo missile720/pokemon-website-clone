@@ -1,9 +1,6 @@
 {
   "name": "pokemon-website-clone",
   "version": "0.1.0",
-  "engines": {
-    "node": "17.8.0"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
